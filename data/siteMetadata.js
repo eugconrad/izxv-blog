@@ -1,22 +1,22 @@
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
-  language: 'en-us',
-  theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  title: 'izxv',
+  author: 'Eugene Conrad',
+  headerTitle: '~/izxv',
+  description: 'Веду блог на основе событий из моей жизни',
+  language: 'ru-ru',
+  theme: 'system',
+  siteUrl: 'https://izxv.fun',
+  siteRepo: 'https://github.com/Conradk10/blog',
   siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
+  image: '/static/images/avatar.webp',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
-  locale: 'en-US',
+  email: 'eugconrad@icloud.com',
+  github: 'https://github.com/Conradk10',
+  telegram: 'https://t.me/zxvghost666',
+  instagram: 'https://instagram.com/zxv.ghost666',
+  vkontakte: 'https://vk.com/zxvghost666',
+  lolzteam: 'https://zelenka.guru/members/145217/',
+  locale: 'ru-RU',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
@@ -79,6 +79,9 @@ const siteMetadata = {
       // https://help.disqus.com/en/articles/1717111-what-s-a-shortname
       shortname: process.env.NEXT_PUBLIC_DISQUS_SHORTNAME,
     },
+  },
+  socialAccount: {
+    twitter: '',
   },
 }
 

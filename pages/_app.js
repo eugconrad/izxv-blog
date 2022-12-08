@@ -1,3 +1,4 @@
+import '@/css/extra.css'
 import '@/css/tailwind.css'
 import '@/css/prism.css'
 import 'katex/dist/katex.css'
@@ -12,8 +13,25 @@ import Analytics from '@/components/analytics'
 import LayoutWrapper from '@/components/LayoutWrapper'
 import { ClientReload } from '@/components/ClientReload'
 
+import Router from 'next/router'
+import NProgress from 'nprogress'
+
 const isDevelopment = process.env.NODE_ENV === 'development'
 const isSocket = process.env.SOCKET
+
+NProgress.configure({ showSpinner: false })
+
+Router.events.on('routeChangeStart', () => {
+  NProgress.start()
+})
+
+Router.events.on('routeChangeComplete', () => {
+  NProgress.done()
+})
+
+Router.events.on('routeChangeError', () => {
+  NProgress.done()
+})
 
 export default function App({ Component, pageProps }) {
   return (

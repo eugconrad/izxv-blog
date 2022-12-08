@@ -1,19 +1,15 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
-  },
-  {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'Telegram Multibot',
+    description: `Простой русскоговорящий userbot для Телеграма`,
+    imgSrc: '/static/images/Projects/multibot.png',
+    href: '',
+    github: 'https://github.com/Conradk10/telegram-multibot',
+    tech1: 'Python',
+    tech2: 'Pyrogram',
+    tech3: 'Redis',
+    tools: ['1', '2', '3'],
+    deployed: 'dasds',
   },
 ]
 

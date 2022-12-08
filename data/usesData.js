@@ -1,0 +1,130 @@
+const usesData = [
+  {
+    title: 'Apple Macbook Pro 13',
+    description: `Intel Core i7 - Dual core CPU 3.0 Ghz, 16 GB RAM, 256 GB`,
+    href: 'https://support.apple.com/kb/sp703?locale=ru_RU',
+    imgSrc: '/static/images/uses/mbpro.png',
+  },
+  {
+    title: 'Apple iPhone XS',
+    description: `Apple A12 Bionic - 6 core CPU 2.5 Ghz, 4 GB RAM, 256 GB`,
+    href: 'https://support.apple.com/kb/SP779?locale=ru_RU',
+    imgSrc: '/static/images/uses/iphonexs.png',
+  },
+  {
+    title: 'PyCharm 2021.2.1',
+    description: `Для написания кода на Python. Чаще всего пишу Telegram ботов`,
+    href: 'https://www.jetbrains.com/ru-ru/pycharm/',
+    imgSrc: '/static/images/uses/pycharm.png',
+  },
+  {
+    title: 'WebStorm 2021.2.1',
+    description: `Использую в веб-разработке. Этот блог был написан именно в WebStorm`,
+    href: 'https://www.jetbrains.com/ru-ru/webstorm/',
+    imgSrc: '/static/images/uses/webstorm.png',
+  },
+  {
+    title: 'CLion 2021.2.1',
+    description: `Для написания homebrew приложений для PSP а так же других мелких проектов`,
+    href: 'https://www.jetbrains.com/ru-ru/clion/',
+    imgSrc: '/static/images/uses/clion.png',
+  },
+  {
+    title: 'Sublime Text 4',
+    description: `Вместо nvim, когда нужно быстро отредактировать какой-то файл/проект без использования IDE`,
+    href: 'https://www.sublimetext.com/',
+    imgSrc: '/static/images/uses/sublime.png',
+  },
+  {
+    title: 'Visual Studio Code',
+    description: `Использую вместе с расширением PlatformIO`,
+    href: 'https://code.visualstudio.com/',
+    imgSrc: '/static/images/uses/vscode.png',
+  },
+  {
+    title: 'PlatformIO (VS Code)',
+    description: `Написание кода под микроконтроллеры и другие программируемые устройства`,
+    href: 'https://platformio.org/',
+    imgSrc: '/static/images/uses/platformio.png',
+  },
+  {
+    title: 'Obsidian',
+    description: `Заметки, планирование, markdown, записываю в нем всё и вся`,
+    href: 'https://obsidian.md/',
+    imgSrc: '/static/images/uses/obsidian.webp',
+  },
+  {
+    title: 'Microsoft Office',
+    description: `Word, Excel, PowerPoint, Teams - всё это использую для учебы в универе`,
+    href: 'https://www.microsoft.com/uk-ua/',
+    imgSrc: '/static/images/uses/office.png',
+  },
+  {
+    title: 'Downie 4',
+    description: `Для загрузки видео/mp3 с почти любых онлайн-ресурсов (YouTube и тп)`,
+    href: 'https://software.charliemonroe.net/downie/',
+    imgSrc: '/static/images/uses/downie.png',
+  },
+  {
+    title: 'qBittorrent',
+    description: `Самый лучший, бесплатный и нереально удобный торрент-клиент - qBittorrent`,
+    href: 'https://www.qbittorrent.org/',
+    imgSrc: '/static/images/uses/qb.png',
+  },
+  {
+    title: 'Alacritty',
+    description: `Быстрый, кросс-платформенный, OpenGL терминал`,
+    href: 'https://github.com/alacritty/alacritty',
+    imgSrc: '/static/images/uses/alacritty.png',
+  },
+  {
+    title: 'Navicat',
+    description: `Очень удобный и практичный графический интерфейс для СУБД`,
+    href: 'https://www.navicat.com/ru',
+    imgSrc: '/static/images/uses/navicat.png',
+  },
+  {
+    title: 'Photoshop 2022',
+    description: `Частенько использую для создания простых картинок или иконок`,
+    href: 'https://www.adobe.com/ru/products/photoshop.html',
+    imgSrc: '/static/images/uses/ps.png',
+  },
+  {
+    title: 'CleanMyMac X',
+    description: `Мощная утилита для очистки, ускорения и мониторинга macOS`,
+    href: 'https://cleanmymac.com/ru',
+    imgSrc: '/static/images/uses/cleanmymac.png',
+  },
+  {
+    title: 'Magnet',
+    description: `Удобная организация рабочего пространства и менеджер окон macOS`,
+    href: 'https://apps.apple.com/ru/app/magnet/id441258766?mt=12',
+    imgSrc: '/static/images/uses/magnet.png',
+  },
+  {
+    title: 'Parallels Desktop',
+    description: `Быстрое, простое и мощное приложение для запуска Windows/Linux/etc на macOS`,
+    href: 'https://www.parallels.com/',
+    imgSrc: '/static/images/uses/parallels.png',
+  },
+  {
+    title: 'Zsh',
+    description: `Мощная современная командная оболочка UNIX`,
+    href: 'https://www.zsh.org/',
+    imgSrc: '/static/images/uses/zsh.png',
+  },
+  {
+    title: 'Tmux',
+    description: `Мультиплексор терминала, предоставляющий доступ к нескольким терминалам в рамках одного экрана`,
+    href: 'https://github.com/tmux/tmux',
+    imgSrc: '/static/images/uses/tmux.png',
+  },
+  {
+    title: 'Neovim',
+    description: `Легко настраиваемый форк Vim для лучшего взаимодействия с пользователем`,
+    href: 'https://neovim.io/',
+    imgSrc: '/static/images/uses/neovim.png',
+  },
+]
+
+export default usesData
