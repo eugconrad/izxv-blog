@@ -10,6 +10,7 @@ import Head from 'next/head'
 
 import siteMetadata from '@/data/siteMetadata'
 import Analytics from '@/components/analytics'
+import { Analytics as VercelAnalytics } from '@vercel/analytics/react'
 import LayoutWrapper from '@/components/LayoutWrapper'
 import { ClientReload } from '@/components/ClientReload'
 
@@ -41,6 +42,7 @@ export default function App({ Component, pageProps }) {
       </Head>
       {isDevelopment && isSocket && <ClientReload />}
       <Analytics />
+      <VercelAnalytics />
       <LayoutWrapper>
         <Component {...pageProps} />
       </LayoutWrapper>
