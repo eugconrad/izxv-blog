@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="mb-3 flex space-x-4">
           <SocialIcon kind="github" href={siteMetadata.github} />
           <SocialIcon kind="telegram" href={siteMetadata.telegram} />
-          <SocialIcon kind="vkontakte" href={siteMetadata.vkontakte} />
+          {/*<SocialIcon kind="vkontakte" href={siteMetadata.vkontakte} />*/}
           <SocialIcon kind="instagram" href={siteMetadata.instagram} />
           <SocialIcon kind="lolzteam" href={siteMetadata.lolzteam} />
         </div>
@@ -25,7 +25,7 @@ export default function Footer() {
           <div>{`© ${new Date().getFullYear()}`}</div>
           <div>{` • `}</div>
           <Link
-            href="https://github.com/Conradk10/blog"
+            href={siteMetadata.siteRepo}
             className="hover:text-primary-600 dark:hover:text-primary-400"
           >
             Исходный код
