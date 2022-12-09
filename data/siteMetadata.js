@@ -9,7 +9,7 @@ const siteMetadata = {
   siteRepo: 'https://github.com/Conradk10/izxv-blog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.webp',
-  socialBanner: '/static/images/twitter-card.png',
+  socialBanner: '/static/images/banner.jpg',
   email: 'eugconrad@icloud.com',
   github: 'https://github.com/Conradk10',
   telegram: 'https://t.me/zxvghost666',
