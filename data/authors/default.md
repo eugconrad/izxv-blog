@@ -1,6 +1,6 @@
 ---
-name: 🍒 | チェリー
-avatar: /static/images/authors/default.png
+name: Евгений Конрад
+avatar: /static/images/avatar.png
 occupation: 22 y.o. Python coder.
 company:
 email: eugconrad@icloud.com

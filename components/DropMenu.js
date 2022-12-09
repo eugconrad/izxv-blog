@@ -2,7 +2,6 @@ import { Menu, Transition } from '@headlessui/react'
 import { Fragment, useEffect, useRef, useState } from 'react'
 import { motion } from 'framer-motion'
 import useSound from 'use-sound'
-import Link from './Link'
 import {
   Bars3Icon,
   HomeIcon,
@@ -17,37 +16,37 @@ import {
 const links = [
   {
     href: '/',
-    title: 'Главная',
+    label: 'Главная',
     icon: <HomeIcon className="mr-2 h-5 w-5" aria-hidden="true" />,
   },
   {
     href: '/blog',
-    title: 'Блог',
+    label: 'Блог',
     icon: <BookOpenIcon className="mr-2 h-5 w-5" aria-hidden="true" />,
   },
   {
     href: '/tags',
-    title: 'Теги',
+    label: 'Теги',
     icon: <TagIcon className="mr-2 h-5 w-5" aria-hidden="true" />,
   },
   {
     href: '/projects',
-    title: 'Проекты',
+    label: 'Проекты',
     icon: <CodeBracketSquareIcon className="mr-2 h-5 w-5" aria-hidden="true" />,
   },
   {
     href: '/uses',
-    title: 'Девайсы',
+    label: 'Девайсы',
     icon: <CpuChipIcon className="mr-2 h-5 w-5" aria-hidden="true" />,
   },
   {
     href: '/donate',
-    title: 'Донат',
+    label: 'Донат',
     icon: <CurrencyDollarIcon className="mr-2 h-5 w-5" aria-hidden="true" />,
   },
   {
     href: 'https://x-net.pp.ua',
-    title: 'X-Net',
+    label: 'X-Net',
     icon: <LinkIcon className="mr-2 h-5 w-5" aria-hidden="true" />,
   },
 ]
@@ -103,8 +102,7 @@ export default function DropDown() {
               <Menu.Item>
                 {({ active }) => (
                   // eslint-disable-next-line @next/next/no-html-link-for-pages
-                  <Link
-                    key={link.title}
+                  <a
                     href={link.href}
                     className={`${
                       active
@@ -113,8 +111,8 @@ export default function DropDown() {
                     } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                   >
                     {active ? link.icon : link.icon}
-                    {link.title}
-                  </Link>
+                    {link.label}
+                  </a>
                 )}
               </Menu.Item>
             ))}
