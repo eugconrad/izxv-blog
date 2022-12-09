@@ -12,7 +12,6 @@ import {
   CurrencyDollarIcon,
   LinkIcon,
 } from '@heroicons/react/20/solid'
-import Link from './Link'
 
 const links = [
   {
@@ -103,8 +102,7 @@ export default function DropDown() {
               <Menu.Item>
                 {({ active }) => (
                   // eslint-disable-next-line @next/next/no-html-link-for-pages
-                  <Link
-                    key={link.title}
+                  <a
                     href={link.href}
                     className={`${
                       active
@@ -114,7 +112,7 @@ export default function DropDown() {
                   >
                     {active ? link.icon : link.icon}
                     {link.title}
-                  </Link>
+                  </a>
                 )}
               </Menu.Item>
             ))}
