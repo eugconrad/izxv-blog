@@ -6,7 +6,7 @@ const siteMetadata = {
   language: 'ru-ru',
   theme: 'system',
   siteUrl: 'https://izxv.fun',
-  siteRepo: 'https://github.com/Conradk10/blog',
+  siteRepo: 'https://github.com/Conradk10/izxv-blog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.webp',
   socialBanner: '/static/images/twitter-card.png',
