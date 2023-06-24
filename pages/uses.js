@@ -14,7 +14,7 @@ export default function Uses() {
             Мои девайсы
           </h1>
           <p className="text-md leading-7 text-gray-500 dark:text-gray-400">
-            Набор девайсов и софта, которыми я пользуюсь на постоянной основе
+            Мои девайсы и софт, которыми я пользуюсь на постоянной основе
           </p>
         </div>
         <div className="container py-12">
