@@ -5,7 +5,7 @@ const siteMetadata = {
   description: 'Веду блог на основе событий из моей жизни',
   language: 'ru-ru',
   theme: 'system',
-  siteUrl: 'https://izxv.fun',
+  siteUrl: 'https://blog.izxv.fun',
   siteRepo: 'https://github.com/Conradk10/izxv-blog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.webp',
