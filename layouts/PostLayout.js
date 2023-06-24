@@ -125,18 +125,18 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                       bgColor="#1da1f2"
                     />
                   </TelegramShareButton>
-                  <VKShareButton
-                    url={postUrl}
-                    title={title}
-                    className="flex items-center overflow-hidden rounded-full !bg-[#1da1f2] hover:scale-110"
-                  >
-                    <SocialIcon
-                      network="vk"
-                      style={{ height: 35, width: 35 }}
-                      fgColor="#fff"
-                      bgColor="#1da1f2"
-                    />
-                  </VKShareButton>
+                  {/*<VKShareButton*/}
+                  {/*  url={postUrl}*/}
+                  {/*  title={title}*/}
+                  {/*  className="flex items-center overflow-hidden rounded-full !bg-[#1da1f2] hover:scale-110"*/}
+                  {/*>*/}
+                  {/*  <SocialIcon*/}
+                  {/*    network="vk"*/}
+                  {/*    style={{ height: 35, width: 35 }}*/}
+                  {/*    fgColor="#fff"*/}
+                  {/*    bgColor="#1da1f2"*/}
+                  {/*  />*/}
+                  {/*</VKShareButton>*/}
                   <TwitterShareButton
                     url={postUrl}
                     title={title}
