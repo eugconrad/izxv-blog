@@ -278,3 +278,8 @@ input:-webkit-autofill:focus {
     transform: rotate(0deg);
   }
 }
+
+.giscus,
+.giscus-frame {
+  width: 100%;
+}
