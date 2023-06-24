@@ -11,7 +11,7 @@ export default function Footer() {
           <SocialIcon kind="telegram" href={siteMetadata.telegram} />
           {/*<SocialIcon kind="vkontakte" href={siteMetadata.vkontakte} />*/}
           <SocialIcon kind="instagram" href={siteMetadata.instagram} />
-          <SocialIcon kind="lolzteam" href={siteMetadata.lolzteam} />
+          {/*<SocialIcon kind="lolzteam" href={siteMetadata.lolzteam} />*/}
         </div>
 
         <div className="mb-2 flex space-x-2 text-sm text-gray-500 dark:text-gray-400">
