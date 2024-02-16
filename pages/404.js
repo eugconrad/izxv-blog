@@ -5,7 +5,7 @@ import siteMetadata from '@/data/siteMetadata'
 export default function FourZeroFour() {
   return (
     <>
-      <PageSEO title={`404 - ${siteMetadata.author}`} description="404" />
+      <PageSEO title={`~/404.html`} description="404" />
       <div className="flex flex-col items-start justify-start md:mt-24 md:flex-row md:items-center md:justify-center md:space-x-6">
         <div className="space-x-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-6xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 md:px-3 md:text-8xl md:leading-14">

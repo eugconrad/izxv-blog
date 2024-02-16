@@ -7,11 +7,11 @@ import Image from '@/components/Image'
 export default function Uses() {
   return (
     <>
-      <PageSEO title={`Девайсы - ${siteMetadata.title}`} description="What I use" />
+      <PageSEO title={`~/uses`} description="What I use" />
       <div className="mx-auto max-w-4xl divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Мои девайсы
+            Что я использую?
           </h1>
           <p className="text-md leading-7 text-gray-500 dark:text-gray-400">
             Мои девайсы и софт, которыми я пользуюсь на постоянной основе
